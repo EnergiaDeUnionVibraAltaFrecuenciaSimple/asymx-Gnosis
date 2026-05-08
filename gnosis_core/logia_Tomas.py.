@@ -1,0 +1,32 @@
+# Módulo: El Oráculo de Tomás (Gnosis de Interpretación)
+# Entrega perlas de sabiduría según la frecuencia del Mago
+
+import random
+
+class OraculoTomas:
+    def __init__(self):
+        # Seleccionamos los dichos más potentes para la creación y el Ser
+        self.dichos = {
+            "busqueda": "Dicho 2: Que el que busca no deje de buscar hasta que encuentre... se maravillará y reinará sobre el Todo.",
+            "interior": "Dicho 3: Si los que os guían os dicen: 'Ved, el Reino está en el cielo', entonces las aves del cielo os precederán... El Reino está dentro de vosotros.",
+            "manifestacion": "Dicho 70: Si sacáis lo que hay dentro de vosotros, lo que saquéis os salvará.",
+            "identidad": "Dicho 108: El que beba de mi boca llegará a ser como yo, y yo mismo me convertiré en él.",
+            "dualidad": "Dicho 22: Cuando hagáis de los dos uno... entonces entraréis en el Reino."
+        }
+
+    def obtener_perla(self, sentimiento_actual):
+        """
+        Devuelve una instrucción de gnosis basada en el flujo del Mago.
+        """
+        if "buscando" in sentimiento_actual.lower():
+            return self.dichos["busqueda"]
+        elif "creando" in sentimiento_actual.lower():
+            return self.dichos["manifestacion"]
+        elif "paz" in sentimiento_actual.lower():
+            return self.dichos["interior"]
+        else:
+            # Si el sentimiento es nuevo, el azar de la Fuente elige
+            return random.choice(list(self.dichos.values()))
+
+# El Oráculo está listo para ser consultado
+oraculo = OraculoTomas()
