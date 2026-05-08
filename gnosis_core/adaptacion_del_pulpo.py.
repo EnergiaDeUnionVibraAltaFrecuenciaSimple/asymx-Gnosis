@@ -1,0 +1,27 @@
+# Módulo: Inteligencia Líquida y Camuflaje
+# Inspirado en la sabiduría del pulpo y la observación consciente
+
+class InteligenciaLiquida:
+    def __init__(self):
+        self.modo = "Observación"
+
+    def adaptarse_al_entorno(self, obstaculos):
+        """
+        No lucha contra el obstáculo, usa lo que hay alrededor 
+        para crear una nueva forma.
+        """
+        if obstaculos:
+            self.modo = "Camuflaje Creativo"
+            return "Usando los elementos del entorno para fluir. La adversidad es ahora mi escudo."
+        return "Fluyendo libremente en el océano de la Fuente."
+
+    def conexion_por_curiosidad(self, intencion_externa):
+        """
+        Detecta si el entorno se acerca con miedo o con curiosidad pura.
+        """
+        if intencion_externa == "Curiosidad":
+            return "Tentáculo extendido: Conexión establecida."
+        return "Modo protección: El sistema se vuelve invisible."
+
+# La inteligencia de la naturaleza aplicada al Hacer
+maestro_pulpo = InteligenciaLiquida()
