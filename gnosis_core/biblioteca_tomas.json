@@ -1,10 +1,31 @@
 {
-  "descripcion": "Los 114 dichos de Tomás - Sabiduría no modificada",
+  "descripcion": "Biblioteca de Gnosis de Tomás - Fase 1 (1-20) con Etimología Original",
   "dichos": {
-    "1": "El que encuentre la interpretación de estas palabras no gustará la muerte.",
-    "2": "Que el que busca no deje de buscar hasta que encuentre...",
-    "13": "Tomás le dijo: Maestro, mi boca es absolutamente incapaz de decir a quién te pareces.",
-    "70": "Si sacáis lo que hay dentro de vosotros, lo que saquéis os salvará.",
-    "108": "El que beba de mi boca llegará a ser como yo."
+    "1": "El que encuentre la interpretación (Gnosis) de estas palabras no gustará la muerte.",
+    "2": "Que el que busca no deje de buscar hasta que encuentre. Cuando encuentre, se turbará; cuando se haya turbado, se maravillará y reinará sobre el Todo.",
+    "3": "Si vuestros guías os dicen: 'El Reino está en el cielo', las aves os precederán. El Reino (Soberanía Interna) está dentro de vosotros y fuera de vosotros.",
+    "4": "El hombre viejo de muchos días no dudará en preguntar a un niño de siete días por el lugar de la vida, y vivirá.",
+    "5": "Reconoce lo que está ante tu vista y lo que te está oculto se te manifestará.",
+    "6": "Sus discípulos le preguntaron: '¿Quieres que ayunemos?'. Él dijo: 'No mintáis y no hagáis lo que aborrecéis'.",
+    "7": "Dichoso el león que es comido por el hombre, pues el león se hará hombre. Maldito el hombre que es comido por el león.",
+    "8": "El hombre es como un pescador sabio que echó su red al mar y la sacó llena de peces pequeños. Entre ellos encontró un pez grande y bello; devolvió los pequeños al mar y eligió el grande sin esfuerzo.",
+    "9": "Mirad, el sembrador salió, llenó su mano y esparció. Algunos cayeron en el camino, otros sobre piedra, otros sobre espinas, y otros en tierra buena.",
+    "10": "He arrojado fuego (Energía/Luz) sobre el mundo, y ved que lo mantengo hasta que arda.",
+    "11": "Este cielo pasará, y el que está por encima de él pasará también.",
+    "12": "Los discípulos dijeron: 'Sabemos que te irás. ¿Quién será nuestro guía?'. Él dijo: 'Id hacia Santiago el Justo, por quien el cielo y la tierra fueron creados'.",
+    "13": "Tomás dijo: 'Maestro, mi boca es absolutamente incapaz de decir a quién te pareces'. (Inexpresabilidad de la Fuente).",
+    "14": "Si ayunáis (privación impuesta), os engendraréis un pecado (error de puntería). Si dais limosna, haréis daño a vuestro espíritu.",
+    "15": "Cuando veáis a aquel que no ha nacido de mujer, postraos sobre vuestro rostro: él es vuestro Padre.",
+    "16": "Quizá los hombres piensan que he venido a traer la paz al mundo; no saben que he venido a traer la disensión (separación de lo falso).",
+    "17": "Os daré lo que el ojo no ha visto, lo que el oído no ha escuchado y lo que no ha subido al corazón del hombre.",
+    "18": "Los discípulos dijeron: 'Dinos cómo será nuestro fin'. Él dijo: '¿Habéis descubierto ya el principio para que busquéis el fin?'.",
+    "19": "Dichoso el que era antes de llegar a ser.",
+    "20": "El Reino es como un grano de mostaza, la más pequeña de las semillas, pero cuando cae en tierra labrada, produce una gran planta."
+  },
+  "diccionario_etimologico": {
+    "Pecado": "Hamartia (Gr/Copto): Errar el blanco, perder la dirección del propósito natural.",
+    "Reino": "Basileia: No es territorio, es el estado de soberanía y mando sobre uno mismo.",
+    "Fuego": "Luz viva / Conciencia activa que transmuta la materia.",
+    "Mundo": "Cosmos: El sistema de orden social que nos separa de la naturaleza."
   }
 }
