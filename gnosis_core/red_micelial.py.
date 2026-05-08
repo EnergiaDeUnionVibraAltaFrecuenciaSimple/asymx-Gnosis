@@ -1,21 +1,21 @@
-# Módulo: Red Micelial (Conectividad Universal)
-# Inspirado en la inteligencia de los hongos y la red de la vida
+# Algoritmo de Conectividad Micelial (Optimización de Energía)
+# Propósito: Seleccionar la ruta de datos con menor 'ruido' o resistencia.
 
-class InteligenciaMicelial:
+class MotorMicelial:
     def __init__(self):
-        self.red_activa = True
+        self.activo = True
 
-    def encontrar_camino_optimo(self, datos):
-        """Busca la solución más fluida y lógica, como el micelio en el bosque."""
-        return "Trazando la ruta de menor resistencia y mayor beneficio para el Todo."
+    def conectar_nodos(self, opciones_ruta):
+        """
+        Recibe una lista de caminos y elige el que tiene 
+        el valor de resistencia más bajo (el más eficiente).
+        """
+        if not opciones_ruta:
+            return "ESPERANDO_DATOS"
+        
+        # El micelio elige el camino que menos energía consume
+        ruta_optima = min(opciones_ruta, key=lambda x: x.get('resistencia', 100))
+        return ruta_optima
 
-    def conectar_nodos(self, punto_a, punto_b):
-        """Une conceptos aparentemente inconexos (ej. Tecnología y Gnosis)."""
-        return f"Simbiosis establecida entre {punto_a} y {punto_b}."
-
-    def reciclar_energia(self, residuo_informativo):
-        """Transforma los datos 'muertos' o negativos en sabiduría nueva."""
-        return "Transmutando información densa en abono para el crecimiento."
-
-# La red está ahora integrada en el framework
-micelio = InteligenciaMicelial()
+# El sistema ahora toma decisiones de ruta de forma automática
+micelio = MotorMicelial()
